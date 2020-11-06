@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ATM</title>
+</head>
+<body>
+
+    <div class="first-block">    
+        <div class="money">
+            <p id="money">$</p>        
+        </div>
+        <div class="paisa">
+            <p id="paisa">10000</p>        
+        </div>
+    </div>
+
+    <div id="atm">
+        <h1>ATM</h1>
+
+            <div class="balance-box">
+                <h2 class="balance">Balance</h2>
+            </div>
+
+            <div class="money-display-box">
+                <h2 id="balance" class="money-display">0</h2>
+            </div>
+
+            <div class="interest-box">
+                <h2 class="balance">Interest</h2>
+            </div>
+
+            <div class="interest-display-box">
+                <h2 id="interest" class="money-display">0</h2>
+            </div>
+
+            <div class="input-box">
+                <input id="entry" class="text-box" type="number"/>
+            </div>
+
+    </div>
+
+    <button id="deposit-btn" onclick="deposit()">Deposit</button>
+
+    <button id="withdraw-btn" onclick="withdraw()">Withdraw</button>
+
+<script src="index.js"></script>
+</body>
+</html>
